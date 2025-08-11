@@ -8,5 +8,6 @@ import { Fayl1Module } from './fayl1/fayl1.module';
   imports: [Fayl1Module, Fayl2Module],
   controllers: [AppController],
   providers: [AppService],
+  exports: [Fayl1Module, Fayl2Module], // Exporting modules if needed
 })
 export class AppModule {}
