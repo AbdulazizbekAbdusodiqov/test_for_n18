@@ -9,5 +9,6 @@ import { Fayl1Module } from './fayl1/fayl1.module';
   
   controllers: [AppController],
   providers: [AppService],
+  exports: [Fayl1Module, Fayl2Module], // Exporting modules if needed
 })
 export class AppModule {}
