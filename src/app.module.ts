@@ -6,6 +6,7 @@ import { Fayl1Module } from './fayl1/fayl1.module';
 
 @Module({
   imports: [Fayl1Module, Fayl2Module],
+  
   controllers: [AppController],
   providers: [AppService],
 })
